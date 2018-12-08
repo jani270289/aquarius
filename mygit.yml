@@ -2,7 +2,7 @@
 - hosts: all
   become: yes
   tasks:
-  - name: des install git
+  - name: des i am going install git on all nodes
     apt:
-      name: git
+      name: git 
       state: present
